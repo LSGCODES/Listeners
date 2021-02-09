@@ -3,8 +3,6 @@
 ### Criando a classe e a registrando.
 ```java
 import org.bukkit.event.Listener;
-```
-```java
 public class Evento implements Listener {
 }
 ```
