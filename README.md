@@ -1,9 +1,8 @@
 # Java_Eventos
 
 ### Criando a classe e a registrando.
-```import org.bukkit.event.Listener;
-```
-```public class Evento implements Listener {
+```java
+public class Evento implements Listener {
 }
 ```
 
