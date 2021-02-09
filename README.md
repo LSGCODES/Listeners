@@ -19,6 +19,9 @@ Quando o evento iniciar:
 public void onStartEvent(OnStartEvent e) {
 }
 ```
+### Desenvolvedor
+Seja bem vindo(a) ao seu local de estudos. Estarei explicando o básico e resumidamente o conteúdo acima. Primeiramente, você precisa saber o que é um evento no minecraft.
+Eventos no minecraft são ações que um determinado jogador executa normalmente. 
 
 ### Informação
 Antes de estudar o código, verifique se upou a API correta.
