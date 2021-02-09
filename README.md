@@ -1,30 +1,33 @@
 # Java_Eventos
 
-Quando um jogador entrar em um determinado evento:
-```java
-@EventHandler
-public void onPlayerJoinEvent(OnPlayerJoinOfEvent e) {
+### Criando a classe e a registrando.
+```import org.bukkit.event.Listener;
+```
+```public class Evento implements Listener {
 }
 ```
 
-Quando um jogador desconectar do evento:
+Quando um jogador entrar no servidor:
 ```java
 @EventHandler
-public void onPlayerLeaveEvent(OnPlayerLeaveOfEvent e) {
+public void onPlayerJoinEvent(PlayerJoinEvent e) {
 }
 ```
-Quando o evento iniciar:
-```java
-@EventHandler
-public void onStartEvent(OnStartEvent e) {
-}
-```
-### Desenvolvedor
-Seja bem vindo(a) ao seu local de estudos. Estarei explicando o básico e resumidamente o conteúdo acima. Primeiramente, você precisa saber o que é um evento no minecraft.
-Eventos no minecraft são ações que um determinado jogador executa normalmente. 
 
-### Informação
-Antes de estudar o código, verifique se upou a API correta.
+Quando um jogador desconectar do servidor:
+```java
+@EventHandler
+public void onPlayerLeaveEvent(PlayerQuitEvent e) {
+}
+```
+Quando um jogador colocar um bloco:
+```java
+@EventHandler
+public void onBlock(BlockPlaceEvent e) {
+}
+```
+### Listeners
+Um listener é uma classe que monitora os eventos que ocorrem na API Bukkit, como a ação de quebrar blocos, ou simplesmente eventos de outros plugins. 
 
 ### Descrição
 Aqui está alguns dos eventos da Api.
