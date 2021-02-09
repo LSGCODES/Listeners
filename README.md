@@ -3,6 +3,8 @@
 ### Criando a classe e a registrando
 ### Listeners
 Um listener é uma classe que monitora os eventos que ocorrem na API Bukkit, como a ação de quebrar blocos, ou simplesmente eventos de outros plugins. 
+### Suporte ??
+Caso tenha alguma dúvida em relação ao código, entre em contacto comigo. https://discord.gg/BaBnxGME2X
 ```java
 import org.bukkit.event.Listener;
 
@@ -29,9 +31,3 @@ Quando um jogador colocar um bloco:
 public void onBlock(BlockPlaceEvent e) {
 }
 ```
-
-### Descrição
-Aqui está alguns dos eventos da Api.
-
-### Dúvidas ??
-Caso tenha alguma dúvida em relação ao código, entre em contacto comigo. https://discord.gg/BaBnxGME2X
